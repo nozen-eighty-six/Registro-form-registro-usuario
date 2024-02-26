@@ -1,0 +1,128 @@
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;    
+
+}
+
+#registro {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 50%;
+  margin: auto auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#registro h2 {
+  text-align: center;
+}
+
+#registro form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 520px) {
+  #registro form {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 222%;
+  }
+  #registro{
+    margin-top: 50px;
+  }
+  #guardar {
+    width: 45%;
+    margin-right: 0;
+  }
+}
+
+#registro label {
+  color: #000000;
+  font-size: 16px;
+}
+
+#registro input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+#registro button {
+  background-color: #0f6c16;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0s ease;
+}
+
+#registro button:hover {
+  background-color: #0aaf15;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.columna {
+  display: inline-block;
+  width: 45%;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  #registro {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #registro {
+    width: 90%;
+  }
+}

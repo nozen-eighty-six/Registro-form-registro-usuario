@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="UsuarioR.css"/>
+    <title>Usuario</title>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <h1>Top Moda</h1>
+        </header>
+    </div>
+    <main class="container" id="container">
+        <section id="registro">
+            <h2>Registro de Usuario</h2>
+            <br>
+            <form id="registroForm">
+                <div class="columna">
+                    <label for="nombre">Nombre:</label><br>
+                    <br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Por favor ingrese su nombre"><br>
+        
+                    <label for="direccion">Dirección:</label><br>
+                    <br>
+                    <input type="text" id="direccion" name="direccion" placeholder="Por favor ingrese su dirección"><br>
+                </div>
+        
+                <div class="columna">
+                    <label for="email">Email:</label><br>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Por favor ingrese su email"><br>
+        
+                    <label for="contraseña">Contraseña:</label><br>
+                    <br>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Por favor ingrese su contraseña"><br>
+                </div>
+                <button type="submit" id="guardar">Guardar</button>
+
+            </form>
+        </section>
+    </main>
+    <div class="footer">
+        <footer>
+            <p>&copy; 2023 Top Moda. Todos los derechos reservados.</p>
+        </footer>
+    </div>    
+    <script src="script.js"></script>     
+</body>
+</html>
